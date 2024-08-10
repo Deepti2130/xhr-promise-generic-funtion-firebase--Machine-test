@@ -1,0 +1,56 @@
+.postcard h3{
+    height:40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.loader{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodycss{
+    background-image: url(../images/head.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btncss{
+    background-color: rgb(55, 55, 246);
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 2px 2px rgb(187, 187, 220);
+    
+}
+
+.btnrem{
+    background-color: rgb(231, 51, 51);
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 2px 2px rgb(222, 182, 182);
+}
+
+.formcss{
+    background-color: rgb(247, 247, 252);
+    border-radius: 15px;
+    color: black;
+    font-weight: 500;
+    box-shadow: 3px 3px #fff;
+}
+
+.contentcss{
+    height: 150px;
+    overflow: auto;
+    font-weight:400;
+    
+}
